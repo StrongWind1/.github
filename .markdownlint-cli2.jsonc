@@ -1,0 +1,10 @@
+{
+  "config": {
+    "default": true,
+    "MD013": false, // line-length: prose is one paragraph per line
+    "MD024": { "siblings_only": true }
+  },
+  "ignores": [
+    ".github/" // issue/PR templates use bold labels, not headings
+  ]
+}
